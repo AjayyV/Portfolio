@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="styles/style.css"/>
+    <link rel="stylesheet" href="styles/mediaqueries.css"/>
+    <title>Ajay V</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav_content">
+        <div class="logo" onclick="location.href='index.html'">Ajay V</div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section class="section">
+      <div class="section_container">
+        <div class="content">
+          <h1 class="title"><span>Contact</span></h1>
+          <form action="https://api.web3forms.com/submit" method="POST" class="contact_form">
+            <input type="hidden" name="access_key" value="xxx-xxx-xxx">
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <textarea cols="30" rows="6" name="message" placeholder="Message" required></textarea>
+            <div class="common_btn">
+              <button type="submit" class="btn_primary">Send</button>
+            </div>
+          </form>
+        </div>
+        <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3907.02173452209!2d78.17616217440926!3d11.692872041623021!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3babf11aec6de14b%3A0x4d90532db2de9538!2sRenu%20Home!5e0!3m2!1sen!2sin!4v1722096206165!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
